@@ -190,10 +190,12 @@ header {
     box-shadow: 0 0 50px rgba(124, 58, 237, 0.6);
 }
 
-.design-circle span {
-    font-size: 100px;
-    font-weight: 900;
-    color: #ffffff;
+.design-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
 }
 
 .hero-card h3 {
